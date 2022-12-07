@@ -1,0 +1,235 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media (min-width: 768px) {
+  html #home {
+    background: linear-gradient(rgba(14, 66, 143, 0.7), rgba(37, 115, 234, 0.7), rgba(14, 66, 143, 0.7)), url("http://res03.sites.3wa.io/assets/files/inte/j9/assets/img/code.jpeg");
+    width: 100vw;
+    min-height: 100vh;
+    font-family: "Montserrat", sans-serif;
+  }
+  html #home header {
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  html #home header figure {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  html #home header figure #logo {
+    height: 90px;
+    width: 90px;
+  }
+  html #home header nav {
+    align-self: center;
+    justify-self: center;
+    width: 50%;
+  }
+  html #home header nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  html #home header nav ul li {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  html #home main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+  }
+  html #home main h1 {
+    font-size: 7.5em;
+    color: #ffffff;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  html #home main h2 {
+    font-size: 5.5em;
+    color: #8ae7c3;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  html #home footer {
+    background-color: #010630;
+    color: #ffffff;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  html #home footer > h2 {
+    text-align: center;
+  }
+  html #cours {
+    background-color: #f0f0f0;
+    width: 100vw;
+    min-height: 100vh;
+    font-family: "Montserrat", sans-serif;
+  }
+  html #cours > header {
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    background-color: #010630;
+  }
+  html #cours > header figure {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  html #cours > header figure #logo {
+    height: 90px;
+    width: 90px;
+  }
+  html #cours > header nav {
+    align-self: center;
+    justify-self: center;
+    width: 50%;
+  }
+  html #cours > header nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  html #cours > header nav ul li {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  html #cours main {
+    width: 80%;
+    margin: auto;
+  }
+  html #cours main section:first-of-type {
+    padding-top: 3em;
+    display: grid;
+    grid-template-columns: 3fr 1.5fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  html #home {
+    background: linear-gradient(rgba(14, 66, 143, 0.7), rgba(37, 115, 234, 0.7), rgba(14, 66, 143, 0.7)), url("https://cdn.discordapp.com/attachments/1044536849626058862/1050008498701881344/code-portrait.jpg");
+    width: 100vw;
+    min-height: 100vh;
+    font-family: "Montserrat", sans-serif;
+  }
+  html #home header {
+    height: 10vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  html #home header figure {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  html #home header figure #logo {
+    height: 40px;
+    width: 40px;
+  }
+  html #home header nav {
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+  }
+  html #home header nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  html #home header nav ul li {
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+  }
+  html #home main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+  }
+  html #home main h1 {
+    font-size: 5.5em;
+    color: #ffffff;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+  }
+  html #home main h2 {
+    font-size: 3.5em;
+    color: #8ae7c3;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+  }
+  html #home footer {
+    background-color: #010630;
+    color: #ffffff;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  html #home footer > h2 {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=cours.css.map */
